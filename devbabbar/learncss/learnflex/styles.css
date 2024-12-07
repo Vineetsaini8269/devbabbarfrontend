@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    /* border: 3px solid black;
+    height: 100vh;
+    padding: 5px;
+    margin: 5px; */
+    margin-left: 100px;
+    margin-top: 100px;
+
+    
+}
+
+.container{
+    border: 1px solid black;
+    width:300px;
+    height: 200px;
+    display: flex;
+    padding: 4px;
+    /*  1. flex-direction - it bascially show which direction you want your box content */
+    /* flex-direction: column;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+    /* 6  flex wrap - it basically wrap the word when we are shinking the window  , lekin warp dete ha to flex ki width hata dete ha */
+    /* flex-wrap:wrap-reverse;
+    flex-wrap:wrap;
+    flex-wrap:nowrap; */
+
+    /* 2.  flex flow  - It is basic short hand property of flexdirection and flex wrap */
+
+        /* flex-flow: row wrap;
+        flex-flow: row wrap-reverse; */
+
+        /* 3.  justify content - It bacially  align box in hozonrtally  */
+
+        /* /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* justify-content: center; */
+        /* justify-content: space-evenly; sabhi jagah ki space same hoti ha*/  
+        /* justify-content: space-around; beech ki distancesame hoti ha lekin satart and end ki thodi kam hoti ha */
+        /* justify-content: space-between; starting and end me gap nhi hoga lekin becch ka gap same hoga */
+
+
+    /* 4. Items-align - means ye vertically arrgange karta ha flex ke content or item ko same work karta ha justify content jaisa */
+
+        /* align-items: flex-end;
+        align-items: flex-start;
+        align-items: center; */
+        /* align-items: stretch;  by default height full hogi  */
+        /* align-items: baseline;  isse jitna bhi content hota ha sab ek hi line me dikhta ha */
+
+        /* 5. **** kisi bhi content ko center me lana hota ha to flex ka justify content and align items center me kr dene se center me content aa jata ha  */
+                     /* 
+        justify-content: center; horizontal center
+        align-items: center; :vertical center  */
+
+        /* 7.   align-content --flex ke content ke beech ke gap ko adjust karne ke liye align-content ka use karte hha  */
+
+        align-content:space-evenly;
+        align-content: center;
+        align-content: flex-end;
+        align-content: flex-start;
+        align-content: space-around;
+        align-content: space-between;
+
+
+
+}
+
+.flex{
+    border:1px solid blue;
+    width: 30px;
+    height: 50px;
+    /* gap: 5px; */
+
+}

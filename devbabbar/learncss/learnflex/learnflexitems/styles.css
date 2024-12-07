@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+.container{
+        border: 1px solid black;
+        display: flex;
+        /* width: 400px; */
+        height: 300px;
+        margin: 150px;
+        padding:5px;
+
+
+}
+
+.flexitems1{
+        border: 1px solid green;
+         /* width: 50px;  */
+        /* height: 60px; */
+        /* overflow: scroll; */
+
+         /*  now leran flex-items  -- it is basically perfrom child of the flex box the content or items are present in the fllex that performsome properties to design */
+
+         /* 1. order - by default order is 0 we can give number of to items which order we want  */
+         order: 2;
+
+
+          /* 2. flex-grow -- it increse the size  by default vaule is 0 */
+         /* flex-grow: 2; */
+
+         /* 3. flex-shrink - it decrese the size   by defauly value is 1 */
+         /* flex-grow: 0; */
+
+        /* 4. flex-basic -- it is generally used for width it manage width  ,basic se hm jo bhi width dete ha uske andar contant jayda hota to apni size increase kar leta ha  */
+
+        /* flex-basis: 170px; */
+
+        /* 5. align-self -- isse keval ek bar me ek item align kar sakte h  */
+
+            align-self: stretch;
+
+
+
+        
+
+}
+
+.flexitems2{
+    border: 1px solid green;
+    width: 50px;
+    /* height: 60px; */
+
+     /*  now leran flex-items  -- it is basically perfrom child of the flex box the content or items are present in the fllex that performsome properties to design */
+
+     /* 1. order - by default order is 0 we can give number of to items which order we want  */
+     /* order: 6;
+     flex-shrink: 5; */
+     flex-basis: 30px;
+
+
+
+    
+
+}
+
+.flexitems3{
+    border: 1px solid green;
+    width: 50px;
+    height: 60px;
+
+     /*  now leran flex-items  -- it is basically perfrom child of the flex box the content or items are present in the fllex that performsome properties to design */
+
+     /* 1. order - by default order is 0 we can give number of to items which order we want  */
+      order: 5;
+
+      /*  flex-grow -- it increse the size  by default vaule is 0 */
+      /* flex-grow: 2; */
+      align-self: center;
+
+    
+
+}
+.flexitems4{
+    border: 1px solid green;
+    width: 50px;
+    height: 60px;
+
+     /*  now leran flex-items  -- it is basically perfrom child of the flex box the content or items are present in the fllex that performsome properties to design */
+
+     /* 1. order - by default order is 0 we can give number of to items which order we want  */
+     order: 2;
+     /* flex-grow: 3; */
+     align-self: baseline;
+     
+
+
+    
+
+}

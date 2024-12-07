@@ -1,0 +1,13 @@
+div{
+    border:1px solid black;
+    display: inline-block;
+    width:200px;
+    height: 200px;
+    padding:2px;
+    transform: translate(300px,200px);
+    margin: 10px;
+    /* transform: rotate(45deg); */
+    /* transform: scale(1,1); */
+    /* transform:skew(68deg); */
+    
+}

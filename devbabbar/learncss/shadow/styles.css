@@ -1,0 +1,15 @@
+div{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px rgb(233, 62, 90),-3px -3px 3px rgb(109, 183, 236);
+    padding:30px;
+    border-radius: 10px;
+}
+
+p{
+    text-shadow: 4px 4px red ,-3px -3px 3px magenta;
+    text-align: center;
+    font-size: larger;
+
+}
